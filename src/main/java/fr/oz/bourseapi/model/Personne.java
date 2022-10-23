@@ -23,6 +23,8 @@ public class Personne {
 
     private String commune;
 
+    private String email;
+
     @Column(name = "dateinscription")
     private LocalDate dateInscription;
 

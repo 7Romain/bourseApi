@@ -86,6 +86,11 @@ public class PersonneController {
             if (dateInscription != null) {
                 currentPersonne.setDateInscription(dateInscription);
             }
+            String email = personne.getEmail();
+            if (email != null) {
+                currentPersonne.setEmail(email);
+
+            }
             personneService.savePersonne(currentPersonne);
             return currentPersonne;
         } else {
