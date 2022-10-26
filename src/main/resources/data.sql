@@ -32,7 +32,7 @@ CREATE TABLE articles (
 );
 
 INSERT INTO articles (categorie, type, taille, couleurs, annotations, reference, prixvendeur, prixvente, idvendeur, tableenregistrement ) VALUES
-  ('VELO', 'ROUTE', 'M', 'Bleu', 'pneu neuf', '1001', '150', '158', '1', '1'),
+  ('VELO', 'ROUTE', 'M', 'Bleu', 'pneu neuf', '2006', '150', '158', '1', '1'),
   ('VELO', 'VTT', 'L', 'Vert', 'porte bagages', '2002','250','263' , '2','2'),
-  ('VELO', 'VTT', 'S', 'Jaune', 'béquille', '1002','100','105' , '1','2'),
-  ('VELO', 'ELECTRIQUE', 'S', 'Jaune', 'encore garantie', '3003',  '1000', '1050','3','2');
+  ('VELO', 'VTT', 'S', 'Jaune', 'béquille', '2001','100','105' , '1','2'),
+  ('VELO', 'ELECTRIQUE', 'S', 'Jaune', 'encore garantie', '2003',  '1000', '1050','3','2');
