@@ -10,5 +10,9 @@ import java.util.List;
 public interface ArticleRepository extends CrudRepository<Article, Long> {
     List<Article> findByIdVendeur(Long idVendeur);
 
+    List<Article> findByTableEnregistrement(int tableEnregistrement);
+
+    Article findByReference(int reference);
+
 }
 

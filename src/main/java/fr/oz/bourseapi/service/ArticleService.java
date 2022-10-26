@@ -33,4 +33,12 @@ public class ArticleService {
     public Article saveArticle(Article article) {
         return articleRepository.save(article);
     }
+
+    public Iterable<Article> getTableCount(int table) {
+        return articleRepository.findByTableEnregistrement(table);
+    }
+
+    public Article getArticleByRef(int ref) {
+        return articleRepository.findByReference(ref);
+    }
 }

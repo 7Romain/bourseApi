@@ -37,6 +37,17 @@ public class ArticleController {
     }
 
 
+    @GetMapping("/articlesParTable/{table}")
+    public Iterable<Article> getTableCount(@PathVariable("table") int table) {
+        return articleService.getTableCount(table);
+    }
+
+    @GetMapping("/articleParRef/{ref}")
+    public Article getArticleByRef(@PathVariable("ref") int ref) {
+        return articleService.getArticleByRef(ref);
+    }
+
+
     @PostMapping("/article")
     public Article createArticle(@RequestBody Article article) {
         return articleService.saveArticle(article);
