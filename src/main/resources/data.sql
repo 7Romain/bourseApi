@@ -11,9 +11,9 @@ CREATE TABLE personnes (
 );
 
 INSERT INTO personnes (prenom, nom, telephone, commune, dateInscription, email) VALUES
-  ('Laurent', 'GINA', '0102030405', 'Limons', '2022-09-10', 'l.gina@gmail.com'),
-  ('Sophie', 'FONCEK', '0601010101', 'Paslieres', '2022-09-10', 'soso@gmail.com'),
-  ('Agathe', 'FEELING', '0785150806', 'Maringues', '2022-09-10', 'missfi@yahoo.fr');
+  ('Laurent', 'GINA', '01 02 03 04 05', 'Limons', '2022-09-10', 'l.gina@gmail.com'),
+  ('Sophie', 'FONCEK', '06 01 01 01 01', 'Paslieres', '2022-09-10', 'soso@gmail.com'),
+  ('Agathe', 'FEELING', '07 85 15 08 06', 'Maringues', '2022-09-10', 'missfi@yahoo.fr');
 
 DROP TABLE IF EXISTS articles;
 

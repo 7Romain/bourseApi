@@ -109,4 +109,9 @@ public class PersonneController {
         personneService.deletePersonne(id);
     }
 
+    @GetMapping("/chercherPersonne/{info}")
+    public Iterable<Personne> chercherPersonne(@PathVariable("info") String info) {
+        return personneService.chercherPersonne(info);
+    }
+
 }
